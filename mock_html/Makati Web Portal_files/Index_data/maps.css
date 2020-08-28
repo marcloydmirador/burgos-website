@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 28, 2014, 10:35:48 AM
+    Author     : mgmalahito
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 90%;
+    background:#666;
+    padding:0;
+}
+
+div.esriControlsBR{
+    bottom:3px;
+}
+
+div.esriControlsBR, div.logo-med{
+    display:none;
+}
+
+
+#leftPane {
+    width: 250px;
+    overflow: auto
+}
+
+#map{
+    padding:0;
+}
+
+/* this line hide layers when out of scale for the inline TOC */
+.agsjsTOCOutOfScale {
+/*  display: none;*/
+}
+
+ a.codeworks_link{
+    display: block;
+    background: url('../../../gismap/codeworks2.png') no-repeat;
+    width:85px;
+    height:15px;
+    float:right;
+    position: absolute;
+    bottom:2.5%;
+    right:15px;
+    z-index:99999;
+}
+
+#content{
+    float:left;
+    height: 86.3%;
+    width:100%; 
+    margin: 0;
+}
+
+.map-toc-container{
+    width: 250px;
+    height:77%;
+    padding:1%;
+    overflow: auto;
+    position:absolute;
+    left:0;
+    top:85px;
+    display: none;
+    z-index:999;
+    background: #666;
+    padding-top:0px;
+    margin-top: 5px;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.map-toc-box{
+    display:none;
+}
+
+#map_menu{
+    padding:5px;
+    margin-left: 20px;
+}
+
+#map_menu a{
+    display: inline-block;
+    color:#fff;
+    text-decoration:none;
+    font-size: 11px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#map_menu a p{
+    margin:0;
+}
+
+#map_menu a.btn-clear{
+    float:right;
+    margin-right: 55px;
+}
+#map_menu a.map-menu-expand{
+    float:right;
+    margin-right: 5px;
+}
+
+.agsjsTOCNode .agsjsTOCNode{
+    color:#fff;
+    overflow: visible;
+    
+    padding:10px 0;
+    border-bottom:1px solid #2c2c2c;
+}
+
+.agsjsTOCNode .agsjsTOCContent{
+    white-space: normal;
+/*    width: 200px;*/
+    height:30px;
+    display:block;
+     vertical-align:top;
+
+}
+
+.agsjsTOCServiceLayerLabel {
+    font-size: 10pt;
+    padding-left: 2px;
+/*    width: 150px;*/
+    font-weight: normal;
+    display: inline-block;
+    line-height: 15px;
+     height:30px;
+     
+}
+
+.agsjsTOCNode:before,
+.agsjsTOCNode:after{
+    clear:both;
+    content: '';
+}
+
+
+.agsjsTOCContent img{
+    display:inline-block;
+}
+
+.agsjsTOCContent span{
+   display:inline-block;
+    height:30px;
+    vertical-align: middle;
+}
+
+.agsjsTOCContent img,
+.agsjsTOCContent span,
+.agsjsTOCContent span input{
+    float:left;
+}
+
+.agsjsTOCServiceLayer{
+     height:30px;
+}
+
+.agsjsTOCIcon{
+    vertical-align:top;
+}
+
+
+#map_side_menu_close{
+   width: 250px;
+    padding:1%;
+    overflow: auto;
+    position:absolute;
+    left:0;
+    margin:0;
+    display: none;
+    z-index:999;
+    background: #666;
+    padding-top:5px;
+    margin-top: 5px;
+    
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+#map_side_menu_close  a{
+    text-decoration: none;
+    color:#fff;
+    font-size:11px;
+}
+
+#map_side_menu_close  a span{
+    font-size: 15px;
+
+}
+
+#map_side_menu_close  a:hover{
+    text-decoration: underline
+}
+
+
+.agsjsTOCNode .agsjsTOCNode:last-child{
+    border-bottom:0;
+}
