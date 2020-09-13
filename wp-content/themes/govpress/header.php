@@ -27,20 +27,38 @@ custom.css">
 		<div class="col-width">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'govpress' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'govpress' ); ?></a>
-
-			<?php wp_nav_menu( array('theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			<div class="top_header">
+				<div class="inline">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/rnp.png" width="30" height="30" alt="">
+					</a>
+				</div>
+				<?php wp_nav_menu( array('theme_location' => 'top', 'menu_class' => 'nav-menu' ) ); ?>
+			</div>
+			<div class="main_header">
+				<div class="inline">
+					<a class="inline" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="46" alt="">
+					</a>
+				</div>
+				<?php wp_nav_menu( array('theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			</div>
 		</div>
 	</nav><!-- #site-navigation -->
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding col-width">
-			<?php if ( get_header_image() ) : ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-				</a>
-			<?php endif; // End header image check. ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+
+			<?php if (is_front_page()) { ?>
+				<?php if ( get_header_image() ) : ?>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
+					</a>
+				<?php endif; // End header image check. ?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<?php } ?>
+
 		</div>
 	</header><!-- #masthead -->
 

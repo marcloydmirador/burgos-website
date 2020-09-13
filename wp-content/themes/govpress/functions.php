@@ -55,7 +55,9 @@ function govpress_setup() {
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
+		'top' => __( 'Top Menu', 'govpress' ),
 		'primary' => __( 'Primary Menu', 'govpress' ),
+		'sidebar_menu' => __( 'Sidebar Menu', 'govpress' ),
 		'icon' => __( 'Icon Menu', 'govpress' ),
 	) );
 
