@@ -1,17 +1,11 @@
 /* Luigi changes */
 #site-navigation {
   overflow: hidden;
-  background-color: #333;
+  z-index: 1000;
 }
 
 #site-navigation a {
-  float: left;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
 #site-navigation a:hover {
