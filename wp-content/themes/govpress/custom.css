@@ -1,0 +1,31 @@
+/* Luigi changes */
+#site-navigation {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#site-navigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#site-navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#site-navigation a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+}

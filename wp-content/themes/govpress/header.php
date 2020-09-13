@@ -14,6 +14,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <?php wp_head(); ?>
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/
+custom.css">
 </head>
 
 <body <?php body_class(); ?>>
