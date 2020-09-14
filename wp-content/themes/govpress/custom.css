@@ -5,8 +5,8 @@
 
 #site-navigation a {
   display: block;
-  line-height: 48px;
-  height: 48px;
+  height: auto;
+  vertical-align: middle;
 }
 
 #site-navigation a > img {
@@ -28,4 +28,51 @@
   position: fixed !important;
   top: 0;
   width: 100%;
+}
+
+/* Marc changes */
+body, button, input, select, textarea {
+  font-size: 14px;
+}
+
+.inline, nav > div > div > [class*='menu-'] {
+  display: inline-block;
+}
+
+.main-navigation ul > li.menu-item-has-children > a, .main-navigation ul > li.menu-item-has-children.focus > a, .main-navigation ul > li.page_item_has_children > a, .main-navigation ul > li.page_item_has_children.focus > a {
+  color: #0072bc;
+}
+
+.main-navigation ul > li.menu-item-has-children:hover > a, .main-navigation ul > li.page_item_has_children > a:hover {
+  color: #777;
+}
+
+.top_header {
+  background-color: #777;
+}
+
+.main_header {
+  background-color: #f3f3f3;
+}
+
+.col-width { 
+  max-width: 1600px;
+  padding: 0px;
+}
+
+ol[type=a] {
+  list-style: lower-alpha;
+}
+
+#content {
+    margin-top: 50px;
+}
+
+.main-navigation ul ul.sub-menu {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#site-navigation .inline a:hover {
+    background: transparent;
 }
