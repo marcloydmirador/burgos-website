@@ -5,6 +5,13 @@
 
 #site-navigation a {
   display: block;
+  line-height: 48px;
+  height: 48px;
+}
+
+#site-navigation a > img {
+    margin: auto;
+    vertical-align: middle;
 }
 
 #site-navigation a:hover {
