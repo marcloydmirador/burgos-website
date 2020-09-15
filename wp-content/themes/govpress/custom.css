@@ -76,3 +76,15 @@ ol[type=a] {
 #site-navigation .inline a:hover {
     background: transparent;
 }
+/* Luigi Changes */
+.wp-block-table {max-width: 1000px; width: 100%; border: none 0px RED;
+overflow-x: scroll; overflow-y: auto;
+}
+.wp-block-table{height: 350px; 
+}
+.wp-block-table > table {width: 1500px; height: 200px; 
+overflow: auto;
+}
+.wp-block-table table tr th:nth-child(3),
+.wp-block-table table tr td:nth-child(3) { width: 10% 
+}
