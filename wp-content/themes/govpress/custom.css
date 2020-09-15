@@ -76,3 +76,19 @@ ol[type=a] {
 #site-navigation .inline a:hover {
     background: transparent;
 }
+
+.wp-block-table table tr td {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.wp-block-table table {border-collapse: collapse;border: 3px solid black;}
+
+.site-header {
+  padding: 0.5em;
+}
+
+.home .site-header {
+  padding: 7em 0 0;
+}
