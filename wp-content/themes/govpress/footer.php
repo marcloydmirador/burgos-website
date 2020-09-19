@@ -48,6 +48,10 @@
 	var navbar = document.getElementById("site-navigation");
 	var sticky = navbar.offsetTop;
 
+	setTimeout( function() { 
+		navbar.classList.add("sticky")
+	}, 1000);
+
 	function myFunction() {
 	  if (window.pageYOffset >= sticky) {
 	    navbar.classList.add("sticky")
