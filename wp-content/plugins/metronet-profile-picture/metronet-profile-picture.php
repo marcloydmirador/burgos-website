@@ -976,6 +976,7 @@ class Metronet_Profile_Picture {
 			array(
 				'methods'  => 'POST',
 				'callback' => array( $this, 'rest_api_put_profile' ),
+				'permission_callback' => '__return_true',
 			)
 		);
 		register_rest_route(
@@ -984,6 +985,7 @@ class Metronet_Profile_Picture {
 			array(
 				'methods'  => 'POST',
 				'callback' => array( $this, 'rest_api_change_profile_image' ),
+				'permission_callback' => '__return_true',
 			)
 		);
 		register_rest_route(
@@ -1017,6 +1019,7 @@ class Metronet_Profile_Picture {
 						'sanitize_callback' => array( $this, 'rest_api_sanitize' ),
 					),
 				),
+				'permission_callback' => '__return_true',
 			)
 		);
 	}
