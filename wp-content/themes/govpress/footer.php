@@ -49,15 +49,19 @@
 	var sticky = navbar.offsetTop;
 
 	setTimeout( function() { 
-		navbar.classList.add("sticky")
+		if (window.innerWidth > 767) {
+			navbar.classList.add("sticky");
+		}
 	}, 1000);
 
 	function myFunction() {
-	  if (window.pageYOffset >= sticky) {
-	    navbar.classList.add("sticky")
-	  } else {
-	    navbar.classList.remove("sticky");
-	  }
+		if (window.innerWidth > 767) {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
 	}
 	</script>
 

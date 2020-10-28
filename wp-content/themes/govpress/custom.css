@@ -69,6 +69,10 @@ ol[type=a] {
 }
 
 #content {
+  margin-top: 80px;
+}
+
+.page-template-default #content {
   margin-top: 50px;
 }
 
@@ -119,4 +123,21 @@ ol[type=a] {
 
 .home .site-header {
   padding: 7em 0 0;
+}
+
+.home .site-main {
+  margin: 0;
+}
+
+article {
+  max-width: 1170px;
+  width: 100%;
+  display: block;
+  margin: 0 auto !important;
+}
+
+/* vis = 0 */
+
+#comments, .byline {
+  display: none !important;
 }
