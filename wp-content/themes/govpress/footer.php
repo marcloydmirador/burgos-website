@@ -42,7 +42,20 @@
 
 <?php wp_footer(); ?>
 
-	<script>
+	<style type="text/css">
+		.entry-content div[id*='tab_container'] > .wpsm_nav-tabs > .entry-content li.presentation > a {
+		  background-color: #00006c !important;
+		  border: 1px solid #071751 !important;
+		}
+
+		.entry-content div[id*='tab_container'] > .wpsm_nav-tabs > .entry-content li.presentation > a:hover, 
+		.entry-content div[id*='tab_container'] > .wpsm_nav-tabs > .entry-content li.presentation > a:focus {
+		  background-color: #e1dc2e !important;
+		  border: 1px solid #cac872 !important;
+		}
+	</style>
+
+	<script type="text/javascript">
 	window.onscroll = function() {myFunction()};
 
 	var navbar = document.getElementById("site-navigation");
@@ -63,6 +76,20 @@
 		  }
 		}
 	}
+
+	document.onreadystatechange = () => {
+	  if (document.readyState === 'complete') {
+	    if (document.readyState === 'interactive') {
+			document.querySelector('.preloader-active').style.opacity = '0.5';
+		}
+
+		if (document.readyState === 'complete') {
+			document.querySelector('.preloader-active').classList.remove('preloader-active');
+		}
+	  }
+	};
+
+	
 	</script>
 
 </body>

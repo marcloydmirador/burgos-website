@@ -349,6 +349,7 @@ class C_MVC_View extends C_Component
     var $_queue = array();
     function __construct($template, $params = array(), $engine = 'php', $context = FALSE)
     {
+        error_reporting(0);
         $this->_template = $template;
         $this->_params = (array) $params;
         $this->_engine = $engine;
