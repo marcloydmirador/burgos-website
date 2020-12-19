@@ -130,6 +130,8 @@ class M_NextGen_Data extends C_Base_Module
 
     static function strip_html($data, $just_scripts=FALSE)
 	{
+	    error_reporting(E_ERROR | E_PARSE);
+	    
 		// NGG 3.3.11 fix. Some of the data persisted with 3.3.11 didn't strip out all HTML
 		if (strpos($data, 'ngg_data_strip_html_placeholder') !== FALSE) {
 			if (class_exists('DomDocument')) {
