@@ -29,19 +29,3 @@
 		</div>
 	</div>
 <?php endif; // Icon Menu ?>
-
-<div class="hidden">
-<?php
-$parent = '344'; /* forms page */
-$children = wp_dropdown_pages("selected=0&child_of=" . $parent . "&echo=0");
-
-if ($children) {
-?>
-	<?php 
-	    // current child will have class 'current_page_item'
-	    echo $children; 
-	?>
-<?php 
-} 
-?>
-</div>
