@@ -1,0 +1,856 @@
+# Copyright (C) 2020 GalleryCreator
+# This file is distributed under the same license as the SimpLy Gallery Block & Lightbox plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpLy Gallery Block & Lightbox 1.7.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sgb-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-02T17:21:18+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: simply-gallery-block\n"
+
+#. Plugin Name of the plugin
+msgid "SimpLy Gallery Block & Lightbox"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://blockslib.com/galleryblock/"
+msgstr ""
+
+#. Description of the plugin
+msgid "The highly customizable Lightbox for native WordPress Gallery/Image. And beautiful gallery blocks with advanced Lightbox for photographers, video creators, writers and content marketers. This blocks set will help you create responsive Images, Video, Audio gallery. Three desired layout in one plugin - Masonry, Justified and Grid."
+msgstr ""
+
+#. Author of the plugin
+msgid "GalleryCreator"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://blockslib.com/"
+msgstr ""
+
+#: src/blocks/grid/components/inspector.js:22
+#: src/blocks/justified/components/inspector.js:27
+#: src/blocks/masonry/components/inspector.js:22
+#: src/blocks/slider/components/inspector.js:44
+msgid "Thumbnails Settings"
+msgstr ""
+
+#: src/blocks/grid/components/inspector.js:35
+#: src/blocks/justified/components/inspector.js:40
+#: src/blocks/masonry/components/inspector.js:35
+#: src/blocks/slider/components/inspector.js:57
+msgid "Reset to default - Thumbnails"
+msgstr ""
+
+#: src/blocks/grid/index.js:32
+msgid "Display multiple images in an organized grid gallery."
+msgstr ""
+
+#: src/blocks/grid/index.js:35
+#: src/blocks/justified/index.js:38
+#: src/blocks/masonry/index.js:36
+#: src/blocks/slider/index.js:35
+msgid "gallery"
+msgstr ""
+
+#: src/blocks/grid/index.js:36
+#: src/blocks/justified/index.js:39
+#: src/blocks/masonry/index.js:37
+#: src/blocks/slider/index.js:36
+msgid "images"
+msgstr ""
+
+#: src/blocks/grid/index.js:37
+msgid "grid"
+msgstr ""
+
+#: src/blocks/grid/index.js:38
+#: src/blocks/justified/index.js:41
+#: src/blocks/masonry/index.js:39
+#: src/blocks/slider/index.js:39
+msgid "media"
+msgstr ""
+
+#: src/blocks/grid/index.js:39
+#: src/blocks/justified/index.js:42
+#: src/blocks/masonry/index.js:40
+#: src/blocks/slider/index.js:40
+msgid "lightbox"
+msgstr ""
+
+#: src/blocks/grid/index.js:40
+#: src/blocks/justified/index.js:43
+#: src/blocks/masonry/index.js:41
+#: src/blocks/slider/index.js:41
+msgid "youtube"
+msgstr ""
+
+#: src/blocks/grid/index.js:41
+#: src/blocks/justified/index.js:44
+#: src/blocks/masonry/index.js:42
+#: src/blocks/slider/index.js:42
+msgid "vimeo"
+msgstr ""
+
+#: src/blocks/justified/index.js:35
+msgid "Display multiple images in an organized justified gallery."
+msgstr ""
+
+#: src/blocks/justified/index.js:40
+msgid "justified"
+msgstr ""
+
+#: src/blocks/masonry/index.js:33
+msgid "Display multiple images in an organized masonry gallery."
+msgstr ""
+
+#: src/blocks/masonry/index.js:38
+msgid "masonry"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:26
+msgid "Slider Settings"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:39
+msgid "Reset to default - Slider"
+msgstr ""
+
+#: src/blocks/slider/index.js:32
+msgid "Display multiple images in an organized slider gallery."
+msgstr ""
+
+#: src/blocks/slider/index.js:37
+msgid "slider"
+msgstr ""
+
+#: src/blocks/slider/index.js:38
+msgid "carousel"
+msgstr ""
+
+#: src/components/BlockPreloaderBar.js:17
+msgid "Updating Gallery Data"
+msgstr ""
+
+#: src/components/grids-edit.js:293
+msgid "Insert Attachment IDs"
+msgstr ""
+
+#: src/components/grids-edit.js:298
+msgid "only IDs separated by comma"
+msgstr ""
+
+#: src/components/grids-edit.js:314
+#: src/components/ItemsManager.js:646
+msgid "Cancel"
+msgstr ""
+
+#: src/components/grids-edit.js:323
+msgid "Add"
+msgstr ""
+
+#: src/components/grids-edit.js:333
+msgid "Replace All"
+msgstr ""
+
+#: src/components/grids-edit.js:355
+msgid "Upload new ones or select files from your library."
+msgstr ""
+
+#: src/components/grids-edit.js:374
+msgid "or Import by Attachment IDs *"
+msgstr ""
+
+#: src/components/grids-inspector.js:176
+msgid "This gallery will use the Global Preset as settings and ignore the settings below."
+msgstr ""
+
+#: src/components/grids-inspector.js:177
+msgid "Do you want to ignore the settings below?"
+msgstr ""
+
+#: src/components/grids-inspector.js:252
+msgid "Do you want to save the settings of this gallery as Global Preset?"
+msgstr ""
+
+#: src/components/grids-inspector.js:296
+msgid "Global Presets - DANGER ZONE"
+msgstr ""
+
+#: src/components/grids-inspector.js:304
+msgid "You will need a brain for these settings or just ignore this panel."
+msgstr ""
+
+#: src/components/grids-inspector.js:317
+msgid "Global Preset Saved"
+msgstr ""
+
+#: src/components/grids-inspector.js:318
+msgid "Save as Global Preset"
+msgstr ""
+
+#: src/components/grids-inspector.js:321
+msgid "All Settings of this Gallery will be saved as the Global Preset for all blocks of this type, if the mode -"
+msgstr ""
+
+#: src/components/grids-inspector.js:323
+#: src/components/grids-inspector.js:341
+msgid "Global Preset Priority"
+msgstr ""
+
+#: src/components/grids-inspector.js:325
+msgid "is selected in the"
+msgstr ""
+
+#: src/components/grids-inspector.js:327
+#: src/components/grids-inspector.js:333
+msgid "Gallery Settings"
+msgstr ""
+
+#: src/components/grids-inspector.js:372
+msgid "Reset to default - Gallery"
+msgstr ""
+
+#: src/components/grids-inspector.js:376
+msgid "Items Manager"
+msgstr ""
+
+#: src/components/grids-inspector.js:396
+msgid "Share Bar Settings"
+msgstr ""
+
+#: src/components/grids-inspector.js:407
+msgid "Reset to default - Share Bar"
+msgstr ""
+
+#: src/components/grids-inspector.js:412
+msgid "Lightbox Settings"
+msgstr ""
+
+#: src/components/grids-inspector.js:423
+msgid "Reset to default - Lightbox"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:9
+msgid "Attention, when grouping this gallery with other blocks, the gallery will be automatically recreated, old links will be broke."
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:10
+msgid "Toggle to enable Deeplinking."
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:15
+msgid "Viewing Item in Lightbox"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:16
+msgid "Lightbox Disabled"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:24
+msgid "DeepLinking - сreate unique URLs for this gallery."
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:30
+msgid "Items Click Action"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:36
+msgid "Thumbnails lazy-loading"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:39
+msgid "Browser-level native lazy-loading"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:42
+msgid "Gallery Preloader Color"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:47
+msgid "Gallery without background"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:56
+msgid "Gallery Backgroud Color"
+msgstr ""
+
+#: src/components/inspectors/GalleryInspector.js:61
+msgid "Gallery Rounded Corners"
+msgstr ""
+
+#: src/components/inspectors/GridInspector.js:16
+#: src/components/inspectors/MasonryInspector.js:17
+msgid "Columns"
+msgstr ""
+
+#: src/components/inspectors/GridInspector.js:24
+#: src/components/inspectors/MasonryInspector.js:25
+#: src/components/inspectors/SliderInspector.js:15
+msgid "Select Min Thumbnail Width (px)."
+msgstr ""
+
+#: src/components/inspectors/GridInspector.js:90
+msgid "Thumbnail Size ratio. Height / Width = Ratio."
+msgstr ""
+
+#: src/components/inspectors/JustifiedInspector.js:18
+msgid "Select Thumbnail Size"
+msgstr ""
+
+#: src/components/inspectors/JustifiedInspector.js:81
+msgid "Last Row Mode"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:15
+msgid "Items Transition Type"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:17
+#: src/components/inspectors/SliderInspectorOptions.js:45
+msgid "Slipping"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:18
+#: src/components/inspectors/SliderInspectorOptions.js:46
+msgid "Fading"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:24
+msgid "Scroll to navigate (mouse wheel)"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:31
+msgid "Scroll down the page for the item you viewed"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:38
+msgid "Prevent downloading"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:41
+msgid "Disable right click to protect content from download"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:45
+msgid "Copyright Alert (right mouse click)"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:51
+msgid "Lightbox background color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:56
+msgid "Preloader Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:61
+msgid "Lightbox Header & Footer color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:66
+msgid "Main Controls - BG Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:71
+msgid "Main Controls - Hover BG Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:76
+msgid "Main Controls - Icon Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:81
+msgid "Main Controls - Icon Hover Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:86
+msgid "Show Items Counter"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:94
+msgid "Items Counter Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:100
+msgid "Show Slideshow Button"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:107
+msgid "Slideshows Timer"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:115
+msgid "Slideshow Indicator Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:120
+msgid "Slideshow Indicator Bg Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:128
+msgid "Show Item Caption"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:138
+msgid "Source for Item caption"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:140
+#: src/components/inspectors/ThumbnailsUniInspector.js:139
+#: src/components/ItemsManager.js:781
+msgid "Caption"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:141
+#: src/components/inspectors/ThumbnailsUniInspector.js:140
+#: src/components/ItemsManager.js:780
+msgid "Title"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:142
+#: src/components/inspectors/ThumbnailsUniInspector.js:141
+msgid "Alt"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:151
+#: src/components/inspectors/ThumbnailsUniInspector.js:149
+msgid "Font size"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:159
+#: src/components/inspectors/ThumbnailsUniInspector.js:159
+msgid "Text Color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:167
+#: src/components/inspectors/SliderInspectorOptions.js:83
+msgid "Show Thumbnails Bar"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:176
+#: src/components/inspectors/SliderInspectorOptions.js:94
+msgid "Thumbnails Border Color (select mode)"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:184
+msgid "Enable Zooom"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:191
+msgid "Show Share Buttons"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:198
+msgid "Show Fullscreen Button"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:205
+msgid "Submenu button color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:212
+msgid "Submenu button Hover color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:219
+msgid "Submenu button Icon color"
+msgstr ""
+
+#: src/components/inspectors/LightboxInspector.js:224
+msgid "Submenu button Icon Hover color"
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:13
+msgid "Activity and Grouping"
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:15
+msgid "Use lightbox for Nativ WP Gallery"
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:22
+msgid "Use lightbox for Nativ WP Image"
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:30
+msgid "Combine all single WP Images (from the Post / Page) to display in the lightbox."
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:41
+msgid "Create Photo \"Story\" - Combine everything that is selected above."
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:50
+msgid "Social Share"
+msgstr ""
+
+#: src/components/inspectors/LightboxPluginInspector.js:56
+msgid "Ligtbox Settings"
+msgstr ""
+
+#: src/components/inspectors/MasonryInspector.js:89
+msgid "* Actual for mobile devices"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:15
+msgid "Overlap Color"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:20
+msgid "Icon Color"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:25
+msgid "Icon Color on Hover"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:30
+msgid "Enable Facebook"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:37
+msgid "Enable Twitter"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:44
+msgid "Enable Pinterest"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:51
+msgid "Enable Download"
+msgstr ""
+
+#: src/components/inspectors/ShareBarInspector.js:58
+msgid "Show Copy Link"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:17
+msgid "Items on Slider Page"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:25
+msgid "Slider Height in pixels"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:33
+msgid "Responsive height"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:39
+msgid "Gallery will maintain its current aspect ratio when changing width."
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:40
+msgid "Gallery has a fixed height."
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:43
+msgid "Slides Transition Type"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:52
+msgid "Arrow navigation"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:61
+msgid "Navigation Arrows - BG Color"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:66
+msgid "Navigation Arrows - Icon Color"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:71
+msgid "Navigation Arrows - Hover BG Color"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:76
+msgid "Navigation Arrows - Icon Hover Color"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:100
+msgid "Show Dot navigation"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:112
+msgid "Dots Color"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:117
+msgid "Dots Color (select mode)"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:124
+msgid "Autoplay"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:131
+msgid "Transition speed"
+msgstr ""
+
+#: src/components/inspectors/SliderInspectorOptions.js:139
+msgid "Pause on hover"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:18
+msgid "Showing captions for each media item."
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:19
+msgid "Toggle to show media captions."
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:27
+msgid "Space between thumbnails"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:35
+msgid "Rounded Corners"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:43
+msgid "Info Bar horizontal align"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:48
+msgid "Top"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:69
+msgid "Bottom"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:89
+msgid "Show Link Button"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:92
+msgid "Optional. Add a unique link to any gallery item"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:97
+msgid "Link Button - Default Label Text"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:102
+msgid "Link Button - Font Size"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:112
+msgid "Link Button - Text Color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:119
+msgid "Link Button - Background Color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:129
+msgid "Show thumbnails Captions"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:137
+msgid "Source for Tumbnails caption"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:166
+msgid "Text Background Color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:176
+msgid "Thumbnails hover color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:181
+msgid "Show Share Button"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:188
+msgid "Show Download Button"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:199
+msgid "SubMenu button background color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:206
+msgid "SubMenu button background color - Hover"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:213
+msgid "SubMenu button icon color"
+msgstr ""
+
+#: src/components/inspectors/ThumbnailsUniInspector.js:220
+msgid "SubMenu button icon color - Hover"
+msgstr ""
+
+#: src/components/ItemsManager.js:83
+msgid "Are you really want remove all images?"
+msgstr ""
+
+#: src/components/ItemsManager.js:95
+msgid "Add Poster"
+msgstr ""
+
+#: src/components/ItemsManager.js:106
+msgid "Add Link"
+msgstr ""
+
+#: src/components/ItemsManager.js:116
+msgid "Edit"
+msgstr ""
+
+#: src/components/ItemsManager.js:126
+#: src/components/ItemsManager.js:738
+msgid "Remove"
+msgstr ""
+
+#: src/components/ItemsManager.js:140
+msgid "Choose an image"
+msgstr ""
+
+#: src/components/ItemsManager.js:245
+msgid "Invalid URL"
+msgstr ""
+
+#: src/components/ItemsManager.js:584
+msgid "Loading..."
+msgstr ""
+
+#: src/components/ItemsManager.js:594
+#: src/components/toolbar.js:42
+msgid "Add Media"
+msgstr ""
+
+#: src/components/ItemsManager.js:597
+#: src/components/MediaPlaceholder.js:28
+msgid "+ Add Media"
+msgstr ""
+
+#: src/components/ItemsManager.js:602
+#: src/components/ItemsManager.js:606
+msgid "Clear Gallery"
+msgstr ""
+
+#: src/components/ItemsManager.js:611
+msgid "Reload Gallery"
+msgstr ""
+
+#: src/components/ItemsManager.js:617
+msgid "Export Media"
+msgstr ""
+
+#: src/components/ItemsManager.js:634
+msgid "Copy IDs of this gallery items?"
+msgstr ""
+
+#: src/components/ItemsManager.js:665
+msgid "Copy"
+msgstr ""
+
+#: src/components/ItemsManager.js:671
+msgid "Import Media"
+msgstr ""
+
+#: src/components/ItemsManager.js:688
+msgid "No files"
+msgstr ""
+
+#: src/components/ItemsManager.js:690
+msgid " file"
+msgstr ""
+
+#: src/components/ItemsManager.js:690
+msgid " files"
+msgstr ""
+
+#: src/components/ItemsManager.js:698
+msgid "Poster Image"
+msgstr ""
+
+#: src/components/ItemsManager.js:706
+msgid "Select Poster"
+msgstr ""
+
+#: src/components/ItemsManager.js:750
+msgid "Accept"
+msgstr ""
+
+#: src/components/ItemsManager.js:776
+msgid "Order by"
+msgstr ""
+
+#: src/components/ItemsManager.js:778
+msgid "Custom"
+msgstr ""
+
+#: src/components/ItemsManager.js:779
+msgid "Uploaded"
+msgstr ""
+
+#: src/components/ItemsManager.js:782
+msgid "Alt Text"
+msgstr ""
+
+#: src/components/ItemsManager.js:783
+msgid "Random"
+msgstr ""
+
+#: src/components/ItemsManager.js:796
+msgid "Order Direction"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:199
+msgid "Do you want to save current Lightbox settings as Global Preset?"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:226
+msgid "SimpLy Lightbox"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:228
+msgid "Lightbox"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:231
+msgid "Use"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:231
+msgid "Lightbox for this"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:239
+msgid "Use Lightbox Global Preset for this"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:260
+msgid "Global Preset"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:272
+msgid "Global Preset Updated"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:273
+msgid "Update Global Preset"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:277
+msgid "All values of the Lightbox properties that are below will be saved as the Lightbox Global Peset for all pages/posts, if the mode - Use Lightbox Global Preset is selected on this "
+msgstr ""
+
+#: src/plugins/lightbox/index.js:279
+msgid "Lightbox on this"
+msgstr ""
+
+#: src/plugins/lightbox/index.js:279
+msgid "is configured according to the Global Preset"
+msgstr ""
