@@ -7,18 +7,25 @@
  * @package GovPress
  */
 ?><!DOCTYPE html>
-<html lang="<?php language_attributes(); ?>">
+<html lang="<?php language_attributes(); ?>" class="preloader-active">
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <?php wp_head(); ?>
-  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/
-custom.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/custom.css">
 </head>
 
 <body <?php body_class(); ?>>
+	
+<div class="loader-container">
+	<div class="loader">
+		<div class="loader-animation"></div>
+	</div>
+</div>
+
 <div id="page" class="hfeed site">
 
 	<?php do_action( 'before' ); ?>
@@ -42,6 +49,11 @@ custom.css">
 					</a>
 				</div>
 				<?php wp_nav_menu( array('theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				<div class="inline">
+					<div id="header-nav-widgets">
+						<?php dynamic_sidebar( 'header-nav' ); ?>
+					</div>
+				</div>
 			</div>
 		</div>
 	</nav><!-- #site-navigation -->
@@ -62,9 +74,11 @@ custom.css">
 		</div>
 	</header><!-- #masthead -->
 
-	<?php if ( is_page_template('templates/home-page.php') ) {
-		get_template_part( 'templates/above', 'home-page' );
-	} ?>
+	<div class="templates_above">
+		<?php if ( is_page_template('templates/home-page.php') ) {
+			get_template_part( 'templates/above', 'home-page' );
+		} ?>
+	</div>
 
 	<div class="col-width">
 		<div id="content" class="site-content">
