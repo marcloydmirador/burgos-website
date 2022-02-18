@@ -94,3 +94,9 @@ overflow: auto;
 .wp-block-table table tr th:nth-child(5),
 .wp-block-table table tr td:nth-child(5) { width: 15% 
 }
+p {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+/* Marc New Fixes */
