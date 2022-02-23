@@ -55,7 +55,9 @@ function govpress_setup() {
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
+		'top' => __( 'Top Menu', 'govpress' ),
 		'primary' => __( 'Primary Menu', 'govpress' ),
+		'sidebar_menu' => __( 'Sidebar Menu', 'govpress' ),
 		'icon' => __( 'Icon Menu', 'govpress' ),
 	) );
 
@@ -98,13 +100,13 @@ add_action( 'after_setup_theme', 'govpress_setup' );
 function govpress_widgets_init() {
 
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'govpress' ),
-		'id'            => 'primary',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
+				'name'          => __( 'Header Nav', 'govpress' ),
+				'id'            => 'header-nav',
+				'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+				'after_widget'  => '</aside>',
+				'before_title'  => '<h2 class="widget-title">',
+				'after_title'   => '</h2>',
+		) );
 
 	register_sidebar( array(
 				'name'          => __( 'Home Page Hero', 'govpress' ),
@@ -123,6 +125,15 @@ function govpress_widgets_init() {
 				'before_title'  => '<h2 class="widget-title">',
 				'after_title'   => '</h2>',
 		) );
+
+	register_sidebar( array(
+		'name'          => __( 'Sidebar', 'govpress' ),
+		'id'            => 'primary',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
 
 	register_sidebar( array(
 		'name'          => __( 'Footer Area One', 'govpress' ),

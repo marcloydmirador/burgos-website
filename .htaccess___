@@ -1,0 +1,13 @@
+#Secure a directory that the .htaccess file is in with a password
+AuthType basic
+AuthName "Burgos Pangasinan - Website Coming Soon - Restricted Access"
+AuthUserFile /home/w1y7ch5hizfo/public_html/.htpasswd
+AuthGroupFile /dev/null
+Require valid-user
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress

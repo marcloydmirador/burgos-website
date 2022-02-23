@@ -16,7 +16,8 @@ if ( false ) {
 	<title>Error: PHP is not running</title>
 </head>
 <body class="wp-core-ui">
-	<p id="logo"><a href="https://wordpress.org/">WordPress</a></p>
+	<!--<p id="logo"><a href="https://wordpress.org/">WordPress</a></p>-->
+	<p><img src="http://marcloydmirador.mywebcommunity.org/burgos-website/wp-content/themes/govpress/images/logo.png" width="46" alt=""></p>
 	<h1>Error: PHP is not running</h1>
 	<p>WordPress requires that your web server is running PHP. Your server does not have PHP installed, or PHP is turned off.</p>
 </body>
@@ -74,7 +75,8 @@ function display_header( $body_classes = '' ) {
 	<?php wp_admin_css( 'install', true ); ?>
 </head>
 <body class="wp-core-ui<?php echo $body_classes; ?>">
-<p id="logo"><?php _e( 'WordPress' ); ?></p>
+
+	<p><img src="http://marcloydmirador.mywebcommunity.org/burgos-website/wp-content/themes/govpress/images/logo.png" width="46" alt=""></p>
 
 	<?php
 } // End display_header().
@@ -212,13 +214,15 @@ function display_setup_form( $error = null ) {
 
 // Let's check to make sure WP isn't already installed.
 if ( is_blog_installed() ) {
-	display_header();
-	die(
+	header("Location: http://marcloydmirador.mywebcommunity.org/burgos-website/");
+
+	//display_header();
+	/*die(
 		'<h1>' . __( 'Already Installed' ) . '</h1>' .
 		'<p>' . __( 'You appear to have already installed WordPress. To reinstall please clear your old database tables first.' ) . '</p>' .
 		'<p class="step"><a href="' . esc_url( wp_login_url() ) . '" class="button button-large">' . __( 'Log In' ) . '</a></p>' .
 		'</body></html>'
-	);
+	);*/
 }
 
 /**
@@ -354,14 +358,14 @@ switch ( $step ) {
 
 		display_header();
 		?>
-<h1><?php _ex( 'Welcome', 'Howdy' ); ?></h1>
-<p><?php _e( 'Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world.' ); ?></p>
+<h1><?php _ex( 'Burgos Pangasinan Website is Down', 'Welcome', 'Howdy' ); ?></h1>
+<p><?php _e( 'You are using a free web hosting service. Paid hosting will never have intermittent issues like this.' ); ?></p>
 
-<h2><?php _e( 'Information needed' ); ?></h2>
-<p><?php _e( 'Please provide the following information. Don&#8217;t worry, you can always change these settings later.' ); ?></p>
+<h2><?php _e( 'How frequent does this happen' ); ?></h2>
+<p><?php _e( 'Once a website reaches a certain activity level (bandwidth limit), this will happen.' ); ?></p>
 
 		<?php
-		display_setup_form();
+		//display_setup_form();
 		break;
 	case 2:
 		if ( ! empty( $language ) && load_default_textdomain( $language ) ) {
